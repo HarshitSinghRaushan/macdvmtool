@@ -1,4 +1,4 @@
-# Apple Silicon to Apple Silicon VDM tool
+# Custom MAC VDM
 
 This tool lets you get a serial console on an Apple Silicon device and reboot it remotely, using only another Apple Silicon device running macOS and a standard Type C cable.
 
@@ -15,9 +15,9 @@ This is based on portions of [ThunderboltPatcher](https://github.com/osy/Thunder
 
 Thanks to t8012.dev and mrarm for assistance with the VDM and Ace2 host interface commands.
 
-## Note about macOS 12
+## Note about macOS 15
 
-To have access to the serial console device on macOS Monterey (12), you need to disable the `AppleSerialShim` extension.
+To have access to the serial console device on macOS Sequoia, you need to disable the `AppleSerialShim` extension.
 
 **Note:** This requires downgrading the system security and may cause problems with upgrades. Use it at your own risk!
 
